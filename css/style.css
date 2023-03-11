@@ -1,0 +1,396 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contener_one {
+    width: 1600px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 auto;
+}
+
+/* contener_one */
+
+.header {
+    width: 100%;
+    background-color: rgb(204, 193, 193);
+
+
+}
+
+/* header */
+
+
+.obshi {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+
+
+}
+
+/* obshi */
+
+
+
+.a_box {
+    display: flex;
+    gap: 42px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* a_box */
+
+
+.a_box a {
+    text-decoration: none;
+    color: black;
+
+}
+
+/* a_box a */
+
+.vtoroy {
+
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #F5F5F7;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* vtoroy */
+
+/* section_one end */
+
+
+
+.box {
+    width: 100%;
+    padding: 16px 0;
+
+}
+
+/* box */
+
+
+.darozak {
+    width: 1040px;
+    background-color: #F5F5F7;
+    height: 75px;
+    display: flex;
+    margin: 0 auto;
+    gap: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 18px 30px;
+}
+
+/* darozak */
+
+
+.darozak h1 {
+    font-size: 16px;
+    line-height: 18px;
+
+}
+
+/* darozak h1 */
+
+
+.darozak h2 {
+    font-weight: 400;
+    font-size: 15px;
+    color: #0066CC;
+}
+
+/* darozak h2 */
+
+
+.flex_bashara {
+    display: flex;
+    gap: 30px;
+}
+
+/* flex_bashara */
+
+
+.basaracho {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+/* basaracho */
+
+
+.f_one {
+    margin: 54px 62px 120px 20px;
+}
+
+
+.f_one h1 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #BF4800;
+}
+
+.f_one h2 {
+    font-weight: 600;
+    font-size: 44px;
+    color: #1D1D1F;
+
+}
+
+.f_one h3 {
+    font-weight: 600;
+    font-size: 21px;
+    color: #1D1D1F;
+
+}
+
+.f_one p {
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+/* f_one */
+
+
+.f_two {
+
+    margin: 54px 120px 0 0;
+
+}
+
+.sms_one {
+    justify-content: flex-end;
+    width: 200px;
+    height: 40px;
+    background-color: #F5F5F7;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    margin-left: 35px;
+
+}
+
+.sms_two {
+    width: 240px;
+    height: 40px;
+    background-color: #F5F5F7;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.flex_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.photo {
+    margin: 0 0 0 20px;
+    position: sticky;
+    top: 60px;
+ 
+}
+
+
+ .photo_box {
+    display: flex;
+    gap: 100px;
+
+
+}
+
+.h1_flex{
+    display: flex;
+
+}
+.h1_flex h1{
+    font-size: 30px;
+}
+.h1_flex h2{
+    font-size: 30px;
+    color: #86868B;
+}
+
+.s_box_one{
+    width: 410px;
+    height: 150px;
+    border: 1px solid #86868B;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+
+}
+.s_h1 h1{
+    font-weight: 600;
+    font-size: 20px;
+}
+.s_h1 p{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.a_p p{
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+
+.s_box_two{
+    padding: 25px;
+    width: 410px;
+    height: 150px;
+    border: 1px solid #86868B;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+
+
+.s_box_three{
+    padding: 25px;
+
+    width: 410px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    height: 150px;
+    background-color:   #F5F5F7;;
+}
+
+.s_h2 h1{
+    font-weight: 600;
+font-size: 20px;
+}
+.s_h2 p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.elem{
+display: flex;
+margin-top: 60px;
+margin-bottom: 30px;
+}
+
+.elem h1{
+    font-size: 30px;   
+}
+
+.elem h2{
+    font-size: 30px;
+    color: #86868B; 
+}
+
+
+
+.rango{
+    display: flex;
+    gap: 25px;
+    margin-top:  30px;
+
+}
+
+
+.red{
+    width: 40px;
+    height: 40px;
+    background-color:red;
+    border-radius: 100%;
+
+}
+.white{
+    width: 40px;
+    height: 40px;
+    background-color:rgb(219, 215, 215);
+    border-radius: 100%;
+}
+
+
+.blac{
+    width: 40px;
+    height: 40px;
+    background-color:black;
+    border-radius: 100%;
+}
+.blue{
+    width: 40px;
+    height: 40px;
+    background-color:#0066CC;
+    border-radius: 100%;
+}
+
+.pink{
+    width: 40px;
+    height: 40px;
+    background-color:pink;
+    border-radius: 100%;
+}
+
+
+.maynabazat{
+display: flex;
+margin-top: 120px;
+}
+
+.maynabazat h1{
+    font-size: 30px;   
+}
+.maynabazat h2{
+    font-size: 30px;
+    color: #86868B;
+}
+h3{
+    font-size: 30px;
+    color: #86868B;
+}
+
+.pagoi{
+    display: flex;
+    padding: 25px;
+    width: 410px;
+    height: 150px;
+    border: 1px solid #86868B;
+    border-radius: 12px;
+    margin-top: 35px;
+    border-radius: 12px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.shabakina{
+    padding: 0px;
+
+}
